@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+data/melanoma_cancer_dataset/
+data/raw/
+data/processed/
+
+var/uploads/*
+!var/uploads/.gitkeep
+
+ml_pipeline/outputs/
+ml_pipeline/reports/

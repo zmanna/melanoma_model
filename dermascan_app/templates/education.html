@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg mt-8">
+    <h2 class="text-2xl font-bold text-black">Recognizing Skin Lesions: Malignant vs Benign</h2>
+    <p class="text-black mt-4">
+        Skin lesions, growths, and marks are common and often harmless. However, some can be warning signs of skin cancer. 
+        Understanding what to look for can help with early detection and potentially save lives.
+    </p>
+
+    <h3 class="text-xl font-semibold text-black mt-8">Signs of Benign (Non-Cancerous) Lesions</h3>
+    <ul class="list-disc list-inside text-black mt-2 space-y-1">
+        <li>Symmetrical shape</li>
+        <li>Even, smooth borders</li>
+        <li>One consistent color (brown, tan, or skin-colored)</li>
+        <li>Small size (typically less than 6 mm, about the size of a pencil eraser)</li>
+        <li>No significant change over time</li>
+    </ul>
+
+    <h3 class="text-xl font-semibold text-black mt-8">Signs of Malignant (Potentially Cancerous) Lesions</h3>
+    <ul class="list-disc list-inside text-black mt-2 space-y-1">
+        <li>Asymmetrical shape</li>
+        <li>Irregular, blurred, or jagged borders</li>
+        <li>Multiple colors (black, red, white, blue, uneven shades)</li>
+        <li>Diameter larger than 6 mm</li>
+        <li>Changes in size, color, or shape over time</li>
+        <li>Bleeding, itching, or crusting</li>
+    </ul>
+
+    <h3 class="text-xl font-semibold text-black mt-8">The ABCDE Rule</h3>
+    <p class="text-black mt-2">
+        The <strong>ABCDE rule</strong> is a helpful guide for checking moles or skin lesions for potential melanoma:
+    </p>
+    <ul class="list-disc list-inside text-black mt-2 space-y-1">
+        <li><strong>A</strong>symmetry: One half is different from the other half.</li>
+        <li><strong>B</strong>order: Edges are irregular, ragged, or blurred.</li>
+        <li><strong>C</strong>olor: Uneven colors or multiple shades.</li>
+        <li><strong>D</strong>iameter: Larger than 6 mm (pencil eraser size).</li>
+        <li><strong>E</strong>volution: Changes in size, shape, color, or elevation.</li>
+    </ul>
+
+    <h3 class="text-xl font-semibold text-black mt-8">Learn More from Trusted Sources</h3>
+    <ul class="list-disc list-inside text-black mt-2 space-y-1">
+        <li><a href="https://www.mayoclinic.org/diseases-conditions/skin-cancer/symptoms-causes/syc-20377605" class="text-blue-600 hover:underline" target="_blank">Mayo Clinic - Skin Cancer Symptoms</a></li>
+        <li><a href="https://www.cdc.gov/cancer/skin/basic_info/symptoms.htm" class="text-blue-600 hover:underline" target="_blank">CDC - Skin Cancer Symptoms and Signs</a></li>
+        <li><a href="https://www.webmd.com/melanoma-skin-cancer/skin-cancer-types" class="text-blue-600 hover:underline" target="_blank">WebMD - Types of Skin Cancer</a></li>
+        <li><a href="https://www.aad.org/public/diseases/skin-cancer/find/check-skin" class="text-blue-600 hover:underline" target="_blank">American Academy of Dermatology - How to Check Your Skin</a></li>
+    </ul>
+
+    <p class="text-black text-sm mt-8"><strong>Disclaimer:</strong> This page is for educational purposes only and is not a substitute for professional medical advice. Always consult a healthcare provider for concerns about your skin.</p>
+</div>
+{% endblock %}

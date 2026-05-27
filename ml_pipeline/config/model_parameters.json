@@ -1,0 +1,12 @@
+{
+  "version": "0.1",
+  "benign_images": "all",
+  "malignant_images": "all",
+  "convolutional_layers": 4,
+  "dense_layers": 1,
+  "dense_nodes": 128,
+  "batch_size": 32,
+  "dropout": 0.35,
+  "epochs": 10,
+  "threshold": 0.35
+}
